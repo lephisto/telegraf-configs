@@ -7,14 +7,6 @@
       "type": "datasource",
       "pluginId": "influxdb",
       "pluginName": "InfluxDB"
-    },
-    {
-      "name": "DS_NTOP-CLUSTER",
-      "label": "ntop-cluster",
-      "description": "",
-      "type": "datasource",
-      "pluginId": "influxdb",
-      "pluginName": "InfluxDB"
     }
   ],
   "__requires": [
@@ -64,9 +56,9 @@
   },
   "editable": true,
   "gnetId": null,
-  "graphTooltip": 0,
+  "graphTooltip": 1,
   "id": null,
-  "iteration": 1576189876457,
+  "iteration": 1576190458666,
   "links": [],
   "panels": [
     {
@@ -803,7 +795,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_NTOP-CLUSTER}",
+      "datasource": "${DS_TELEGRAF_TURING-CLUSTER}",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -812,6 +804,7 @@
       },
       "id": 10,
       "panels": [],
+      "repeat": null,
       "title": "Interface Status",
       "type": "row"
     },
@@ -960,7 +953,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_NTOP-CLUSTER}",
+      "datasource": "${DS_TELEGRAF_TURING-CLUSTER}",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -1726,5 +1719,5 @@
   "timezone": "",
   "title": "Cisco CX3560",
   "uid": "AQPwsRBZz",
-  "version": 52
+  "version": 55
 }
